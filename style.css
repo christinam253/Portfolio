@@ -1,0 +1,98 @@
+body,
+html {
+  width: 100%; 
+  height: 100%;
+  margin: auto; 
+ background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size:  cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main {
+	position: fixed;
+}
+.text {
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+.btmcontainer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+	color: #111;
+	background-color: rgba(241, 241, 241, 0.6);
+}
+.rhcontainer {
+	position: absolute;
+	text-align: justify;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 20vw;
+	min-width: 30%;
+	max-width: 50%;
+	background-color: rgba(241, 241, 241, 0.6);
+	overflow: auto;
+}
+.centercontainer {
+	position: float;
+	text-align: justify;
+	background-color: rgba(241, 241, 241, 0.6);
+	height: 100%;
+	min-width: 200px;
+	padding: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	overflow: auto;
+}
+.formlist {
+	margin: 0px;
+	padding: 10px;
+}
+.wsite-button {
+	background-color: #111;
+  cursor:pointer;
+  display:grid;
+  color:#FFF;
+  border-radius:4px;
+  border:1px solid #bbb;
+  transition: all 0.3s linear;
+  max-width: 100px;
+}
+.wsite-button:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.wsite-button-inner {
+	color: white;
+	padding: 10px;
+}
+
+hr {
+	height: 2px;
+	background-color: #111;
+}
+h3 {
+	color: #111;
+	padding: 15px;
+}
+p {
+	color: #111;
+	padding: 15px;
+}
+body {
+	align-content: center;
+}
+
+img {
+	margin: 20px;
+  width: 80%;
+  border: 2px solid #111;
+}
+
+

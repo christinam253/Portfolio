@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<! -- Stylesheet -- !> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+<!--***** NAVBAR *****--> 
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color: #444;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+</style>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Home</a><br><br>  
+  <a href="about.html">About</a><br><br>
+  <a href="portfolio.html">Portfolio</a><br><br>
+  <a href="contact.html">Contact</a>
+</div>
+<div class="main">
+  <button class="openbtn" onclick="openNav()">☰ More</button>  
+
+ </div>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "200px";
+  document.getElementById("main").style.marginLeft = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</head>
+<body>
+
+  
+<!--***** HEADER *****--> 
+
+<div class="centercontainer"><br><hr><br>
+ <h3>Contact Me</h3><br><hr> 
+
+
+<form enctype="multipart/form-data" action="" method="POST" id="form-283038354818703658" accept-charset="UTF-8" target="form-283038354818703658-target-1659241859220">
+    <div id="283038354818703658-form-parent" class="wsite-form-container" style="margin-top:10px;">
+      
+<ul class="formlist" id="283038354818703658-form-list">
+
+<label class="wsite-form-label wsite-form-fields-required-label"><span class="form-required">*</span> Indicates required field</label><div><div class="wsite-form-field wsite-name-field" style="margin:5px 0px 15px 0px;"><br>
+        <label class="wsite-form-label">Name <span class="form-required">*</span></label>
+        <div style="clear:both;"></div>
+        <div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
+          <input aria-required="true" id="input-725379976830284697" class="wsite-form-input wsite-input" placeholder="First" type="text" name="_u725379976830284697[first]"><br><br>
+          
+        </div>
+        <div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
+          <input aria-required="true" id="input-725379976830284697-1" class="wsite-form-input wsite-input" placeholder="Last" type="text" name="_u725379976830284697[last]"><br><br>
+        
+        </div>
+        <div id="instructions-725379976830284697" class="wsite-form-instructions" style="display:none;"></div>
+      </div>
+      <div style="clear:both;"></div></div>
+
+<div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
+        <label class="wsite-form-label" for="input-384088511632706417">Email <span class="form-required">*</span></label>
+        <div class="wsite-form-input-container">
+          <input aria-required="true" id="input-384088511632706417" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="_u384088511632706417">
+        </div>
+        <div id="instructions-384088511632706417" class="wsite-form-instructions" style="display:none;"></div>
+      </div></div>
+
+<div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
+        <label class="wsite-form-label" for="input-373903631267382956">Comment <span class="form-required">*</span></label>
+        <div class="wsite-form-input-container">
+          <textarea aria-required="true" id="input-373903631267382956" class="wsite-form-input wsite-input wsite-input-width-370px" name="_u373903631267382956" style="height: 200px; width: 98%;"></textarea>
+        </div>
+        <div id="instructions-373903631267382956" class="wsite-form-instructions" style="display:none;"></div>
+      </div></div>
+      </ul>
+
+      <div class="submitbutton" style="text-align:center; margin-top:5px; margin-bottom:10px; margin-left: 10px;">
+      <input type="hidden" name="form_version" value="2">
+      <input type="hidden" name="wsite_approved" id="wsite-approved" value="approved">
+      <input type="hidden" name="ucfid" value="283038354818703658">
+      <input type="hidden" name="recaptcha_token">
+
+      <a class="wsite-button" href="sent.html" href="mailto:christinamackay00@gmail.com?subject=Mail from the Website"><span class="wsite-button-inner">Submit</span>
+      </a>
+      </div><br>
+</div></form>
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<! -- Stylesheet -- !> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+<!--***** NAVBAR *****--> 
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color: #444;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+</style>
+
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Home</a><br><br>  
+  <a href="about.html">About</a><br><br>
+  <a href="portfolio.html">Portfolio</a><br><br>
+  <a href="contact.html">Contact</a>
+</div>
+<div class="main">
+  <button class="openbtn" onclick="openNav()">☰ More</button>  
+
+ </div>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "200px";
+  document.getElementById("main").style.marginLeft = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</head>
+<body>
+
+  
+<!--***** HEADER *****--> 
+
+<div class="rhcontainer"><br><hr><br>
+ <h3>About Me</h3><br><hr>
+<p>I have a strong academic background alongside practical skills that I have gained from my professional history. I am a self-taught website coder and have mastered the languages of HTML and CSS. I am hugely familiar with JavaScript, Bootstrap methodologies and Search Engine Optimisation. <br><br>
+I am a passionate freelance web developer outside of my current career in operational logistics. I look for challenges and solve problems. <br><br> Get in touch if you have any website needs and we can discuss how I can help. <br><br><br> - Christina
+</p>
+
+</div>
+
+
